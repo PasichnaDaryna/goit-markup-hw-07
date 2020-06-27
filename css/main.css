@@ -696,12 +696,16 @@ h3 {
 
 .member {
   display: block;
-  width: calc((100% - 90px) / 3);
+  width: calc((100% - 90px) / 4);
   margin-right: 30px;
-  background-color: var(--main-bg-color);
+  background-color: #ffffff;
   -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+}
+
+.member:last-child {
+  margin-right: 0;
 }
 
 .member .member-name {
@@ -714,6 +718,10 @@ h3 {
   text-align: center;
   margin-bottom: 16px;
   font-size: 16px;
+}
+
+.member img {
+  width: 270px;
 }
 
 .social-list {
@@ -1022,7 +1030,7 @@ footer {
 }
 
 .join-svg {
-  magin-left: 10px;
+  margin-left: 10px;
 }
 
 .line {
