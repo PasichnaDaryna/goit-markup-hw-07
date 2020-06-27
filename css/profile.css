@@ -802,6 +802,13 @@ footer {
   border: 1px solid transparent;
   display: inline-block;
   height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .join {
