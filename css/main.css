@@ -337,10 +337,9 @@ h3 {
   color: #ffffff;
 }
 
-.header-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .container {
@@ -349,6 +348,12 @@ h3 {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .main-nav {
@@ -514,19 +519,6 @@ h3 {
   font-size: 16px;
   line-height: 1.87;
   font-weight: bold;
-}
-
-.section {
-  padding-bottom: 94px;
-  padding-top: 94px;
-}
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .adv-list {
