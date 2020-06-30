@@ -666,11 +666,6 @@ footer {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
