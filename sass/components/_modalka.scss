@@ -63,14 +63,10 @@
     0px 1px 3px rgba(0, 0, 0, 0.12);
   cursor: pointer;
   outline: none;
-}
 
-.close-button:focus {
-  border: 1px solid $accent-color;
-}
-
-.close-button:focus .close-icon {
-  fill: $accent-color;
+  &:focus {
+    border: 1px solid $accent-color;
+  }
 }
 
 .close-icon {
@@ -78,6 +74,10 @@
   height: 11px;
   fill: $headerlink-color;
   background-color: $bg-color;
+
+  .close-button:focus & {
+    fill: $accent-color;
+  }
 }
 
 .disclaimer {

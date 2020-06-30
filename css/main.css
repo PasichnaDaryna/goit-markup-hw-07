@@ -547,12 +547,15 @@ h3 {
   display: block;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin: 0;
   margin-right: 30px;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.adv-item:last-child {
+  margin-right: 0;
 }
 
 .plus {
@@ -589,19 +592,6 @@ h3 {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-}
-
-.section {
-  padding-bottom: 94px;
-  padding-top: 94px;
-}
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .central-title {
@@ -659,19 +649,6 @@ h3 {
   text-align: center;
   white-space: nowrap;
   width: 370px;
-}
-
-.section {
-  padding-bottom: 94px;
-  padding-top: 94px;
-}
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .central-title {
@@ -779,19 +756,6 @@ h3 {
 .social-option:hover,
 .social-option:focus .icon-social {
   --color5: $bg-color;
-}
-
-.section {
-  padding-bottom: 94px;
-  padding-top: 94px;
-}
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .central-title {
@@ -1146,15 +1110,15 @@ footer {
   border: 1px solid #2196f3;
 }
 
-.close-button:focus .close-icon {
-  fill: #2196f3;
-}
-
 .close-icon {
   width: 11px;
   height: 11px;
   fill: #212121;
   background-color: #ffffff;
+}
+
+.close-button:focus .close-icon {
+  fill: #2196f3;
 }
 
 .disclaimer {

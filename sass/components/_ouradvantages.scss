@@ -22,10 +22,13 @@
   width: calc((100% - 90px) / 4);
   display: block;
   box-sizing: border-box;
-  margin: 0;
   margin-right: 30px;
   text-align: center;
   justify-content: center;
+
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .plus {
