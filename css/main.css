@@ -750,14 +750,6 @@ h3 {
   --color5: $bg-color;
 }
 
-.central-title {
-  font-size: 36px;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
 .client-list {
   display: -webkit-box;
   display: -ms-flexbox;
