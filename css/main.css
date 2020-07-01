@@ -523,6 +523,7 @@ h3 {
   font-size: 16px;
   line-height: 1.87;
   font-weight: bold;
+  outline: none;
 }
 
 .adv-list {
