@@ -529,8 +529,6 @@ h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
   text-decoration: none;
   list-style: none;
   -webkit-box-pack: center;
